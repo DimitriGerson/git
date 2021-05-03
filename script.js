@@ -24,6 +24,7 @@ function getCookie(cname) {
 
 function checkCookie() {
 	var username = getCookie("username");
+	console.log(username);
 	if (username != "") {
 		alert ("Welcome again " + username);
 	} else {
